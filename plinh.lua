@@ -2204,10 +2204,10 @@ local Tabs = {
 	Settings = Window:AddTab({ Title = "Setting Farm", Icon = "settings" }),
     Main = Window:AddTab({ Title = "Farm", Icon = "home" }),
     Ms = Window:AddTab({ Title = "Misc", Icon = "align-vertical-distribute-center" }),    
-    Mt = Window:AddTab({ Title = "Material And Boss", Icon = "air-vent" }),    
-    De = Window:AddTab({ Title = "Fruit And Raid", Icon = "banana" }),    
+    Mt = Window:AddTab({ Title = "Material And Boss", Icon = "cross-hair" }),    
+    De = Window:AddTab({ Title = "Fruit And Raid", Icon = "list-todo" }),    
     St = Window:AddTab({ Title = "Status Sever", Icon = "activity" }),    
-    Lc = Window:AddTab({ Title = "Local Player", Icon = "baby" }),   
+    Lc = Window:AddTab({ Title = "Local Player", Icon = "person-standing" }),   
     RC = Window:AddTab({ Title = "Race V4", Icon = "chevrons-right" }),   
     Se = Window:AddTab({ Title = "Sea Event", Icon = "anchor" }),   
     Qs = Window:AddTab({ Title = "Quest And Upgrade Race", Icon = "arrow-up-down" }),   
@@ -2218,7 +2218,7 @@ local Options = Fluent.Options
 do
     Fluent:Notify({
         Title = "Plinh Hub",
-        Content = "Cảm ơn bạn đã sử dụng",
+        Content = "Cảm ơn bạn đã sử dụng hub",
         SubContent = "", -- Optional
         Duration = 5 -- Set to nil to make the notification not disappear
     })
