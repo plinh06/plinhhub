@@ -2217,8 +2217,8 @@ local Options = Fluent.Options
 
 do
     Fluent:Notify({
-        Title = "Xester Hub",
-        Content = "Thank for use",
+        Title = "Plinh Hub",
+        Content = "Cảm ơn bạn đã sử dụng",
         SubContent = "", -- Optional
         Duration = 5 -- Set to nil to make the notification not disappear
     })
@@ -7580,7 +7580,7 @@ ImageButton1.BorderSizePixel = 0
 ImageButton1.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 ImageButton1.Size = UDim2.new(0, 50, 0, 50)
 ImageButton1.Draggable = true
-ImageButton1.Image = "rbxassetid://16375477666"
+ImageButton1.Image = "rbxassetid://18504699299"
 ImageButton1.MouseButton1Down:connect(function()
   game:GetService("VirtualInputManager"):SendKeyEvent(true,"LeftControl",false,game)
   game:GetService("VirtualInputManager"):SendKeyEvent(false,"LeftControl",false,game)
